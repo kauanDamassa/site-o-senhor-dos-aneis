@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --color-primary: #daa520;
+    --color-secondary: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none
+}
+
+
+#cabecalho { 
+    font-size: 28px;   
+}
+
+
+#cabecalho .container .cabecalho-imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+#cabecalho #menu ul {
+    display: flex;
+}
+#cabecalho #menu ul li {
+    list-style: none;
+}
+#cabecalho #menu ul li a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #ccc;
+    transition: all 0.5s linear;
+}
+
+#cabecalho #menu ul li a:hover{
+    background-color: var(--color-primary);
+}
+
+.rodape-imagem{
+    margin-top: 600px;
+    margin-right: 400px;
+}
+
+.conteudo-principal{
+    color:#ccc;
+    float: right;
+    padding: 50px;
+}
+
+.titulo-maior{
+    font-size: 40px;
+}
+
+.sub-titulo{
+    font-size: 20px;
+}
+
+#pag-autor p {
+    color: #ffffff;
+    float: right;
+    text-align: justify;
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    background: rgb(red, green, blue);
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid;
+    border-radius: 10px;
+}
+
+#pag-autor img {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    margin-left: 820px;
+}
+
+#titulo-autor {
+    color: #ffffff;
+    margin-left: 890px;
+}
+
+#sub-titulo-autor{
+    color: #ccc;
+    margin-left: 805px;
+}
+
+p {
+    color: #ccc;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#imagem-do-frodo{
+    width: 350px;
+    float: left;
+}
+
+* h1, h2 {
+    color: #ccc;
+}
+
+#titulo-personagens {
+    margin-left: 700px;
+    font-size: 50px;
+}
+
+.frodo-texto {
+    color: #ccc;
+    float: left;
+    text-align: justify;
+    font-size: 20px;
+    background: #ffffff1c;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+#div-frodo{
+    margin-top: 100px;
+}
+
+
+
+#imagem-do-sam{
+    width: 350px;
+    float: left;
+}
+
+.sam-texto {
+    color: #ccc;
+    text-align: justify;
+    float: left;
+    font-size: 20px;
+    background: #ffffff1c;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+#div-sam{ 
+   margin-top: 300px;
+}
+
+#imagem-do-bilbo{
+    width: 350px;
+    float: left;
+}
+
+.bilbo-texto {
+    color: #ccc;
+    text-align: justify;
+    float: left;
+    font-size: 20px;
+    background: #ffffff1c;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+#div-bilbo{ 
+   margin-top: 300px;
+}
+
+#imagem-do-gandalf{
+    width: 350px;
+    float: left;
+}
+
+.gandalf-texto {
+    color: #ccc;
+    text-align: justify;
+    float: left;
+    font-size: 20px;
+    background: #ffffff1c;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-left: 375px;
+    margin-top: -200px;
+}
+
+#div-gandalf{ 
+   margin-top: 300px;
+}
+
+#titulo-filmes{
+    font-size: 50px;
+    margin-top: -10px;
+}
+
+.container-a-sociedade-do-anel {
+    margin-left: 20px;
+}
+
+.container-as-duas-torres {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.sub-titulo-a-sociedade-do-anel {
+    margin-left: 20p;
+}
+
+.container-o-retorno-do-rei {
+    margin-left: 700px;
+    margin-top: -740px;
+}
+
+.container-uma-jornada-inesperada {
+    margin-left: 700px;
+    margin-top: 50px;
+}
+
+.container-a-desolacao-de-smaug {
+    margin-left: 1400px;
+    margin-top: -740px;
+}
+
+.container-a-batalha-dos-cinco-exercitos {
+    margin-left: 1400px;
+    margin-top: 50px;
+}
+
+.container-os-aneis-do-poder {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.tabela {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #f5f5f5;
+    width: 600px;
+    margin-bottom: 20px;
+  }
+  
+  tr, td {
+    padding: 8px;
+    text-align: left;
+    font-size: 29px;
+  }
+  
+  tr {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  tr:hover {
+    background-color: #ccc;
+  }
+
+.sub-livros{
+    color: #ccc;
+}
+
+.titulo-livros {
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+.livros{
+    margin-left: 500px;
+    width: 370px;
+    margin-top: -170px;
+    
+}
+
+.series{
+    margin-left: 100px;
+    font-size: 40px;
+}
+
+.impacto {
+    margin-top: 50px;
+    margin-left: 300px;
+    font-size: 40px;
+}
+
+.conclusao  {
+    margin-top: 50px;
+    margin-left: 500px;
+    font-size: 40px;
+}
+
+.img-jg-1 {
+    width: 500px;
+}
+
+.jogo-1 {
+    margin-top: 100px;
+}
+
+.img-jg-2 {
+    width: 500px ;
+}
+
+.jogo-2 {
+    margin-top: 100px
+}
+
+.img-jg-3 {
+    width: 500px ;
+}
+
+.jogo-3 {
+    margin-top: 100px;
+}
+
+.titulo-jogos {
+    font-size: 50px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.titulo-historia {
+    font-size: 50px;
+}
+
+.rodape {
+    background-color: var(--color-secondary);
+    color: #fff;
+    text-align: center;
+    font-size: 19px;
+    padding: 50px;
+    margin-top: 1000px;
+}
+.rodape a {
+    color: var(--color-primary);
+    text-decoration: none;
+    
+}
+.rodape a:hover{
+    text-decoration: underline;
+}
+
